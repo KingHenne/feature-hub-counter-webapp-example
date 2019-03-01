@@ -1,0 +1,22 @@
+{
+  "name": "feature-hub-counter",
+  "version": "1.0.0",
+  "description": "A Feature Hub counter web app",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@feature-hub/core": "0.4.0",
+    "@feature-hub/module-loader": "0.4.0",
+    "@feature-hub/react": "0.4.0",
+    "react": "16.7.0-alpha.2",
+    "react-dom": "16.7.0-alpha.2"
+  },
+  "devDependencies": {
+    "@types/react": "16.7.13",
+    "@types/react-dom": "16.0.11",
+    "parcel-bundler": "^1.6.1"
+  }
+}
